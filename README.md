@@ -7,7 +7,7 @@ A small Go command that compares a `.env.example` file with an actual `.env` fil
 Free, MIT, standard library only, no network access, read-only.
 
 ```
-$ envgap examples/.env.example examples/.env
+$ envgap env.example env.actual
 duplicate           actual   PORT line 3,4
 extra               actual   SENTRY_DSN line 5
 invalid-line        actual   - line 6
@@ -21,7 +21,7 @@ placeholder         actual   API_KEY line 2
 Needs Go 1.21 or newer.
 
 ```
-go install github.com/shamilhabeebnelli/envgap/cmd/envgap@latest
+go install github.com/shamilhabeebnelli/envgap@latest
 envgap [flags] EXAMPLE_FILE ACTUAL_FILE
 ```
 
