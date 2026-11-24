@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="envgap logo: N between two dotenv lines with a gap">
+  <rect width="128" height="128" rx="24" fill="#0f2a3f"/>
+  <rect x="18" y="22" width="40" height="8" rx="4" fill="#5fd0a5"/>
+  <rect x="70" y="22" width="40" height="8" rx="4" fill="#5fd0a5" opacity=".35"/>
+  <rect x="18" y="98" width="92" height="8" rx="4" fill="#5fd0a5"/>
+  <path d="M42 84V44l44 40V44" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
