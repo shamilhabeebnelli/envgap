@@ -1,0 +1,4 @@
+envgap
+*.exe
+.env
+!examples/.env
